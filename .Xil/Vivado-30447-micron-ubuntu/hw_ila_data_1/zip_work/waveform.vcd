@@ -1,0 +1,18 @@
+$date
+        2017-Jun-23 16:25:47
+$end
+$version
+        Vivado v2016.3 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 1 " design_1_i/network_M_AXIS_tvalid $end
+$var reg 1 # design_1_i/Monitoring_dout $end
+$var reg 32 $ design_1_i/minitor_0_num_packets_out [31:0] $end
+$var reg 1 D _TRIGGER $end
+$var reg 1 E _WINDOW $end
+$var reg 1 F _GAP $end
+$upscope $end
+$enddefinitions $end
