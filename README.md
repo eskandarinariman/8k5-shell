@@ -17,6 +17,8 @@ For more information please read the report and presentation, which are availabl
  
 # Build
 For building this shell one tcl script is available that is called recreate.tcl.
+
+Note: this project is built using vivado 2016.3 
  
 # Test
 In system_test_script directory, there are plenty of different tests available; however, the entire_system_test.sh is the general one that tests all the interconnections including Ethernet, UDP, TCP, and PCIe. For ethernet it simply pings the FPGA device. For UDP and TCP it sends a message to FPGA, and gets it back (There are UDP loopback application and TCP echo server in hardware side to make this test possible).
